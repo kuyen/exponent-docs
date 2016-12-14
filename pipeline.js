@@ -100,7 +100,7 @@ const updateSearchIndex = (branch, tag) => ({
 
     Log.collapsed(':timer_clock: Waiting 10 seconds...');
 
-    await setTimeoutAsync(10);
+    await setTimeoutAsync(10000);
 
     Log.collapsed(':open_mouth: Updating search index...');
 
@@ -125,5 +125,7 @@ async function makeVersionName() {
 }
 
 function setTimeoutAsync(timeout) {
-  return new Promise(resolve => setTimeout(resolve, timeout));
+  return new Promise(resolve => {
+    setTimeout(() => { resolve(); }, timeout);
+  });
 }

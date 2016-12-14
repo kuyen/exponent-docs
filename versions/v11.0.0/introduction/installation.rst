@@ -12,7 +12,7 @@ Desktop Development Tool: XDE
 XDE stands for Exponent Development Environment. It is a standalone
 desktop app that includes all dependencies you'll need to get started.
 
-Download the latest version of XDE for `macOS <https://xde-updates.exponentjs.com/download/mac>`_, `Windows <https://xde-updates.exponentjs.com/download/win32>`_, or `Linux <https://xde-updates.exponentjs.com/download/linux>`_.
+Download the latest version of XDE for `macOS <https://xde-updates.exponentjs.com/download/mac>`_, `Windows (64-bit) <https://xde-updates.exponentjs.com/download/win32>`_, or `Linux <https://xde-updates.exponentjs.com/download/linux>`_.
 
 On Linux, open with ``chmod a+x XDE*.AppImage`` and ``./XDE*.AppImage``.
 
@@ -49,7 +49,7 @@ Once the emulator is open and you have a project open in XDE, you can press *Ope
 Node.js
 --------
 
-To get started wtih Exponent you don't necessarily need to have Node.js
+To get started with Exponent you don't necessarily need to have Node.js
 installed, but as soon as you start actually building something you'll want to
 have it. `Download the latest version of Node.js <https://nodejs.org/en/>`_.
 
